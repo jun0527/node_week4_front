@@ -1,0 +1,34 @@
+.btn-l {
+  font-weight: bold;
+  border: 2px solid #000400;
+  border-radius: 8px;
+}
+.btn-m {
+  font-weight: 400;
+  border-radius: 4px;
+}
+.btn-primary {
+  background: $primary;
+  color: $white;
+  &:hover {
+    background: $secondary;
+    color: $dark;
+  }
+}
+.btn-gray {
+  background: $gray-400;
+  color: $dark;
+  &:hover {
+    background: $secondary;
+    color: $dark;
+  }
+}
+.btn-dark {
+  background: $dark;
+  color: $white;
+  &:hover {
+    background: $white;
+    color: $dark;
+    border: 2px solid #000400;
+  }
+}

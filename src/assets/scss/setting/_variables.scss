@@ -1,0 +1,72 @@
+$primary: #03438D;
+$secondary: #EEC32A;
+$background: #EFECE7;
+$background-line: #707070;
+$dark: #000400;
+$gray-500: #9B9893;
+$gray-400: #A8B0B9;
+$blue-100: #E2EDFA;
+$red-600: #DE4B63;
+$red-500: #F57375;
+$yellow: #FAA722;
+$green: #83C51D;
+$white: #FFFFFF;
+
+$colors: (
+  primary: $primary,
+  secondary: $secondary,
+  background: $background,
+  background-line: $background-line,
+  dark: $dark,
+  gray-500: $gray-500,
+  gray-400: $gray-400,
+  blue-100: $blue-100,
+  red-600: $red-600,
+  red-500: $red-600,
+  yellow: $yellow,
+  green: $green,
+  white: $white,
+);
+
+$font-size-base: 1rem; //16
+$font-size: (
+  1: $font-size-base * 3.75,//60
+  2: $font-size-base * 1.5,//24
+  3: $font-size-base * 1.25,//20
+  4: $font-size-base,//16
+  5: $font-size-base * 0.875,//14
+  6: $font-size-base * 0.75,//12
+);
+
+/*margin、padding設定*/
+$space: 2px;
+$spaces: (
+  1: $space * 1,//2
+  2: $space * 2,//4
+  3: $space * 3,//6
+  4: $space * 4,//8
+  5: $space * 5,//10
+  6: $space * 6,//12
+  8: $space * 8,//12
+  11: $space * 11,//22
+  12: $space * 12,//24
+);
+
+$fws: (
+  bold: bold,
+  400: 400,
+);
+
+//flex設定
+$jc: (
+  start: flex-start,
+  end: flex-end,
+  center: center,
+  between: space-between,
+);
+$ai: (
+  start: flex-start,
+  end: flex-end,
+  center: center,
+  stretch: stretch,
+);

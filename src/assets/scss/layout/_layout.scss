@@ -1,0 +1,94 @@
+.header {
+  background: #fff;
+  height: 60px;
+  border-bottom: 3px solid #000400;
+  > div {
+    padding-right: 13.5px;
+    padding-left: 13.5px;
+  }
+  .userName {
+    position: relative;
+    font-family: 'Azeret Mono', monospace;
+    font-weight: bold;
+    line-height: 20px;
+    padding-right: 4px;
+    padding-left: 4px;
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -3PX;
+      left: 0;
+      width: 100%;
+      border-collapse:collapse;
+      border: 1px solid #000400;
+    }
+  }
+}
+.main {
+  display: flex;
+  padding-top: 48.5px;
+  padding-bottom: 70px;
+  .pageContent {
+    width: 62.5%;
+    padding-right: 13.5px;
+    padding-left: 13.5px;
+  }
+}
+.userPhotoBox {
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 2px solid #000400;
+  margin-right: 6.5px;
+  .userPhoto {
+    display: block;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+  }
+  &.photo-l {
+    width: 50px;
+    height: 50px;
+    margin-right: 16px;
+    .userPhoto {
+      width: 50px;
+      height: 50px;
+    }
+  }
+}
+.sideBar {
+  width: 37.5%;
+  padding-right: 13.5px;
+  padding-left: 13.5px;
+  .menu {
+    background: #fff;
+    padding: 32px 24px;
+    border: 2px solid #000400;
+    a:hover {
+      .iconOutline {
+        background: #03438D;
+        color: #FFFFFF;
+      }
+    }
+  }
+  .iconOutline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #000400;
+    border-radius: 50%;
+    background: #e2edfa;
+    margin-right: 16px;
+  }
+  .postBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 54px;
+    box-shadow: -2px 2px 0px #000400;
+  }
+}
