@@ -58,7 +58,7 @@
             </p>
           </div>
         </a>
-        <p class="mb-8">{{ item.content }}</p>
+        <p class="postContent mb-8">{{ item.content }}</p>
         <div class="postImageBox" v-if="item.image !== ''">
           <img :src="item.image" class="postImage" alt="貼文圖片">
         </div>
